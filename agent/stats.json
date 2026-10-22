@@ -1,0 +1,435 @@
+{
+ "dishes": [
+  "PLOV",
+  "MANTY_MEAT",
+  "MANTY_VEG",
+  "SAMSA_BEEF",
+  "SAMSA_CHICKEN",
+  "SAMSA_VEG",
+  "LAGMAN",
+  "LAGMAN_SOUP"
+ ],
+ "samples": {
+  "Wednesday": [
+   {
+    "date": "2026-07-01",
+    "total_units": 177,
+    "PLOV": 28,
+    "MANTY_MEAT": 12,
+    "MANTY_VEG": 4,
+    "SAMSA_BEEF": 16,
+    "SAMSA_CHICKEN": 7,
+    "SAMSA_VEG": 2,
+    "LAGMAN": 6,
+    "LAGMAN_SOUP": 8
+   },
+   {
+    "date": "2026-07-29",
+    "total_units": 169,
+    "PLOV": 26,
+    "MANTY_MEAT": 15,
+    "MANTY_VEG": 3,
+    "SAMSA_BEEF": 15,
+    "SAMSA_CHICKEN": 8,
+    "SAMSA_VEG": 3,
+    "LAGMAN": 6,
+    "LAGMAN_SOUP": 8
+   },
+   {
+    "date": "2026-08-26",
+    "total_units": 191,
+    "PLOV": 33,
+    "MANTY_MEAT": 14,
+    "MANTY_VEG": 4,
+    "SAMSA_BEEF": 21,
+    "SAMSA_CHICKEN": 9,
+    "SAMSA_VEG": 2,
+    "LAGMAN": 6,
+    "LAGMAN_SOUP": 6
+   },
+   {
+    "date": "2026-09-16",
+    "total_units": 178,
+    "PLOV": 28,
+    "MANTY_MEAT": 15,
+    "MANTY_VEG": 4,
+    "SAMSA_BEEF": 18,
+    "SAMSA_CHICKEN": 6,
+    "SAMSA_VEG": 3,
+    "LAGMAN": 7,
+    "LAGMAN_SOUP": 7
+   },
+   {
+    "date": "2026-09-23",
+    "total_units": 192,
+    "PLOV": 34,
+    "MANTY_MEAT": 15,
+    "MANTY_VEG": 4,
+    "SAMSA_BEEF": 17,
+    "SAMSA_CHICKEN": 7,
+    "SAMSA_VEG": 2,
+    "LAGMAN": 6,
+    "LAGMAN_SOUP": 6
+   },
+   {
+    "date": "2026-09-30",
+    "total_units": 207,
+    "PLOV": 30,
+    "MANTY_MEAT": 18,
+    "MANTY_VEG": 4,
+    "SAMSA_BEEF": 19,
+    "SAMSA_CHICKEN": 9,
+    "SAMSA_VEG": 4,
+    "LAGMAN": 7,
+    "LAGMAN_SOUP": 8
+   }
+  ],
+  "Friday": [
+   {
+    "date": "2026-07-03",
+    "total_units": 262,
+    "PLOV": 53,
+    "MANTY_MEAT": 22,
+    "MANTY_VEG": 5,
+    "SAMSA_BEEF": 34,
+    "SAMSA_CHICKEN": 9,
+    "SAMSA_VEG": 4,
+    "LAGMAN": 10,
+    "LAGMAN_SOUP": 11
+   },
+   {
+    "date": "2026-07-17",
+    "total_units": 265,
+    "PLOV": 54,
+    "MANTY_MEAT": 24,
+    "MANTY_VEG": 5,
+    "SAMSA_BEEF": 28,
+    "SAMSA_CHICKEN": 11,
+    "SAMSA_VEG": 3,
+    "LAGMAN": 11,
+    "LAGMAN_SOUP": 11
+   },
+   {
+    "date": "2026-07-24",
+    "total_units": 224,
+    "PLOV": 40,
+    "MANTY_MEAT": 15,
+    "MANTY_VEG": 4,
+    "SAMSA_BEEF": 22,
+    "SAMSA_CHICKEN": 8,
+    "SAMSA_VEG": 3,
+    "LAGMAN": 6,
+    "LAGMAN_SOUP": 6
+   },
+   {
+    "date": "2026-08-07",
+    "total_units": 245,
+    "PLOV": 34,
+    "MANTY_MEAT": 16,
+    "MANTY_VEG": 4,
+    "SAMSA_BEEF": 24,
+    "SAMSA_CHICKEN": 11,
+    "SAMSA_VEG": 4,
+    "LAGMAN": 7,
+    "LAGMAN_SOUP": 10
+   },
+   {
+    "date": "2026-08-21",
+    "total_units": 282,
+    "PLOV": 42,
+    "MANTY_MEAT": 20,
+    "MANTY_VEG": 5,
+    "SAMSA_BEEF": 28,
+    "SAMSA_CHICKEN": 12,
+    "SAMSA_VEG": 4,
+    "LAGMAN": 8,
+    "LAGMAN_SOUP": 8
+   },
+   {
+    "date": "2026-09-11",
+    "total_units": 228,
+    "PLOV": 35,
+    "MANTY_MEAT": 15,
+    "MANTY_VEG": 5,
+    "SAMSA_BEEF": 23,
+    "SAMSA_CHICKEN": 8,
+    "SAMSA_VEG": 3,
+    "LAGMAN": 11,
+    "LAGMAN_SOUP": 13
+   },
+   {
+    "date": "2026-09-18",
+    "total_units": 235,
+    "PLOV": 40,
+    "MANTY_MEAT": 22,
+    "MANTY_VEG": 4,
+    "SAMSA_BEEF": 29,
+    "SAMSA_CHICKEN": 9,
+    "SAMSA_VEG": 4,
+    "LAGMAN": 11,
+    "LAGMAN_SOUP": 11
+   }
+  ],
+  "Saturday": [
+   {
+    "date": "2026-07-04",
+    "total_units": 304,
+    "PLOV": 55,
+    "MANTY_MEAT": 23,
+    "MANTY_VEG": 6,
+    "SAMSA_BEEF": 28,
+    "SAMSA_CHICKEN": 10,
+    "SAMSA_VEG": 4,
+    "LAGMAN": 10,
+    "LAGMAN_SOUP": 10
+   },
+   {
+    "date": "2026-07-18",
+    "total_units": 276,
+    "PLOV": 45,
+    "MANTY_MEAT": 25,
+    "MANTY_VEG": 5,
+    "SAMSA_BEEF": 30,
+    "SAMSA_CHICKEN": 11,
+    "SAMSA_VEG": 5,
+    "LAGMAN": 13,
+    "LAGMAN_SOUP": 15
+   },
+   {
+    "date": "2026-07-25",
+    "total_units": 332,
+    "PLOV": 59,
+    "MANTY_MEAT": 23,
+    "MANTY_VEG": 6,
+    "SAMSA_BEEF": 34,
+    "SAMSA_CHICKEN": 13,
+    "SAMSA_VEG": 4,
+    "LAGMAN": 16,
+    "LAGMAN_SOUP": 19
+   },
+   {
+    "date": "2026-09-12",
+    "total_units": 342,
+    "PLOV": 60,
+    "MANTY_MEAT": 30,
+    "MANTY_VEG": 6,
+    "SAMSA_BEEF": 31,
+    "SAMSA_CHICKEN": 15,
+    "SAMSA_VEG": 5,
+    "LAGMAN": 12,
+    "LAGMAN_SOUP": 20
+   }
+  ],
+  "Sunday": [
+   {
+    "date": "2026-07-05",
+    "total_units": 260,
+    "PLOV": 41,
+    "MANTY_MEAT": 23,
+    "MANTY_VEG": 6,
+    "SAMSA_BEEF": 26,
+    "SAMSA_CHICKEN": 11,
+    "SAMSA_VEG": 4,
+    "LAGMAN": 9,
+    "LAGMAN_SOUP": 10
+   },
+   {
+    "date": "2026-07-19",
+    "total_units": 254,
+    "PLOV": 50,
+    "MANTY_MEAT": 24,
+    "MANTY_VEG": 4,
+    "SAMSA_BEEF": 24,
+    "SAMSA_CHICKEN": 9,
+    "SAMSA_VEG": 3,
+    "LAGMAN": 8,
+    "LAGMAN_SOUP": 9
+   },
+   {
+    "date": "2026-08-16",
+    "total_units": 254,
+    "PLOV": 48,
+    "MANTY_MEAT": 24,
+    "MANTY_VEG": 5,
+    "SAMSA_BEEF": 27,
+    "SAMSA_CHICKEN": 12,
+    "SAMSA_VEG": 4,
+    "LAGMAN": 9,
+    "LAGMAN_SOUP": 11
+   },
+   {
+    "date": "2026-08-23",
+    "total_units": 262,
+    "PLOV": 52,
+    "MANTY_MEAT": 21,
+    "MANTY_VEG": 5,
+    "SAMSA_BEEF": 29,
+    "SAMSA_CHICKEN": 8,
+    "SAMSA_VEG": 4,
+    "LAGMAN": 7,
+    "LAGMAN_SOUP": 7
+   },
+   {
+    "date": "2026-09-06",
+    "total_units": 300,
+    "PLOV": 61,
+    "MANTY_MEAT": 21,
+    "MANTY_VEG": 7,
+    "SAMSA_BEEF": 32,
+    "SAMSA_CHICKEN": 12,
+    "SAMSA_VEG": 5,
+    "LAGMAN": 10,
+    "LAGMAN_SOUP": 9
+   },
+   {
+    "date": "2026-09-27",
+    "total_units": 256,
+    "PLOV": 41,
+    "MANTY_MEAT": 16,
+    "MANTY_VEG": 5,
+    "SAMSA_BEEF": 28,
+    "SAMSA_CHICKEN": 10,
+    "SAMSA_VEG": 3,
+    "LAGMAN": 8,
+    "LAGMAN_SOUP": 7
+   }
+  ],
+  "Tuesday": [
+   {
+    "date": "2026-07-07",
+    "total_units": 166,
+    "PLOV": 24,
+    "MANTY_MEAT": 13,
+    "MANTY_VEG": 3,
+    "SAMSA_BEEF": 19,
+    "SAMSA_CHICKEN": 7,
+    "SAMSA_VEG": 3,
+    "LAGMAN": 8,
+    "LAGMAN_SOUP": 8
+   },
+   {
+    "date": "2026-07-21",
+    "total_units": 158,
+    "PLOV": 32,
+    "MANTY_MEAT": 14,
+    "MANTY_VEG": 3,
+    "SAMSA_BEEF": 18,
+    "SAMSA_CHICKEN": 7,
+    "SAMSA_VEG": 2,
+    "LAGMAN": 8,
+    "LAGMAN_SOUP": 9
+   },
+   {
+    "date": "2026-08-11",
+    "total_units": 142,
+    "PLOV": 25,
+    "MANTY_MEAT": 13,
+    "MANTY_VEG": 3,
+    "SAMSA_BEEF": 15,
+    "SAMSA_CHICKEN": 6,
+    "SAMSA_VEG": 2,
+    "LAGMAN": 5,
+    "LAGMAN_SOUP": 7
+   },
+   {
+    "date": "2026-08-18",
+    "total_units": 171,
+    "PLOV": 35,
+    "MANTY_MEAT": 15,
+    "MANTY_VEG": 3,
+    "SAMSA_BEEF": 19,
+    "SAMSA_CHICKEN": 6,
+    "SAMSA_VEG": 2,
+    "LAGMAN": 6,
+    "LAGMAN_SOUP": 6
+   },
+   {
+    "date": "2026-09-08",
+    "total_units": 149,
+    "PLOV": 22,
+    "MANTY_MEAT": 11,
+    "MANTY_VEG": 3,
+    "SAMSA_BEEF": 13,
+    "SAMSA_CHICKEN": 6,
+    "SAMSA_VEG": 2,
+    "LAGMAN": 4,
+    "LAGMAN_SOUP": 5
+   },
+   {
+    "date": "2026-09-29",
+    "total_units": 135,
+    "PLOV": 21,
+    "MANTY_MEAT": 10,
+    "MANTY_VEG": 3,
+    "SAMSA_BEEF": 15,
+    "SAMSA_CHICKEN": 6,
+    "SAMSA_VEG": 2,
+    "LAGMAN": 6,
+    "LAGMAN_SOUP": 8
+   }
+  ],
+  "Thursday": [
+   {
+    "date": "2026-07-30",
+    "total_units": 211,
+    "PLOV": 32,
+    "MANTY_MEAT": 16,
+    "MANTY_VEG": 4,
+    "SAMSA_BEEF": 26,
+    "SAMSA_CHICKEN": 9,
+    "SAMSA_VEG": 4,
+    "LAGMAN": 8,
+    "LAGMAN_SOUP": 9
+   },
+   {
+    "date": "2026-08-27",
+    "total_units": 217,
+    "PLOV": 43,
+    "MANTY_MEAT": 17,
+    "MANTY_VEG": 5,
+    "SAMSA_BEEF": 24,
+    "SAMSA_CHICKEN": 9,
+    "SAMSA_VEG": 4,
+    "LAGMAN": 6,
+    "LAGMAN_SOUP": 8
+   },
+   {
+    "date": "2026-09-03",
+    "total_units": 229,
+    "PLOV": 44,
+    "MANTY_MEAT": 16,
+    "MANTY_VEG": 4,
+    "SAMSA_BEEF": 25,
+    "SAMSA_CHICKEN": 8,
+    "SAMSA_VEG": 3,
+    "LAGMAN": 6,
+    "LAGMAN_SOUP": 9
+   },
+   {
+    "date": "2026-09-17",
+    "total_units": 184,
+    "PLOV": 29,
+    "MANTY_MEAT": 14,
+    "MANTY_VEG": 4,
+    "SAMSA_BEEF": 19,
+    "SAMSA_CHICKEN": 7,
+    "SAMSA_VEG": 2,
+    "LAGMAN": 7,
+    "LAGMAN_SOUP": 7
+   },
+   {
+    "date": "2026-09-24",
+    "total_units": 214,
+    "PLOV": 33,
+    "MANTY_MEAT": 15,
+    "MANTY_VEG": 4,
+    "SAMSA_BEEF": 23,
+    "SAMSA_CHICKEN": 7,
+    "SAMSA_VEG": 3,
+    "LAGMAN": 8,
+    "LAGMAN_SOUP": 12
+   }
+  ]
+ },
+ "telegram_offset": 0
+}

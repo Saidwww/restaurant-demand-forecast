@@ -1,0 +1,35 @@
+name: Daily prep forecast
+
+on:
+  schedule:
+    - cron: "0 5 * * *"   # 07:00 Berlin (summer time)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  forecast:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: agent
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Run forecast
+        env:
+          PREDICT_BOT_TOKEN: ${{ secrets.PREDICT_BOT_TOKEN }}
+          PREDICT_CHAT_ID: ${{ secrets.PREDICT_CHAT_ID }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: python predict_agent.py
+      - name: Save learned stats back to repo
+        run: |
+          git config user.name "predict-agent"
+          git config user.email "predict-agent@users.noreply.github.com"
+          git add stats.json
+          git diff --cached --quiet || git commit -m "update stats $(date +%F)"
+          git push
